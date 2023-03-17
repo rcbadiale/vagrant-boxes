@@ -9,3 +9,6 @@ Installed packages:
 - Pyenv / Python 3.9
 - VSCode
   - Extensions: Live Share and Python
+
+Shared folder:
+- `../data`
