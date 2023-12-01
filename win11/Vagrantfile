@@ -1,0 +1,10 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "gusztavvargadr/windows-11"
+  config.vm.hostname = "host-win"
+  config.vm.synced_folder "../data/", "c:/vagrant_data", create: true
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "4196"
+  end
+end
